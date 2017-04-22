@@ -17,9 +17,7 @@ export class Hero {
           (click)="onSelect(hero)">
           <span class="badge">{{hero.id}}</span> {{hero.name}}
       </li>
-      
     </ul>
-
 
 <div *ngIf="selectedHero">
   <h2>{{selectedHero.name}} details!</h2>
